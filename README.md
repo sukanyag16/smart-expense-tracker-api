@@ -49,9 +49,25 @@ smart-expense-tracker-api/
 
 ## Installation
 
-Python 3.12 is recommended.
+Python 3.12 was used to develop and test this project.
 
-From the repository root, install the dependencies:
+Creating a virtual environment is recommended but not required:
+
+### Windows
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the project dependencies:
 
 ```bash
 pip install -r requirements.txt
